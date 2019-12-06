@@ -16,7 +16,7 @@ The main purpose of the application is to demonstrate horizontal scaling on AWS.
 
 # Running the code
 
-To check that you have cleared the pre-requisites before proceeding, try and simply run the queues.py file, and expect to see an output as follows:
+To check that you have cleared the pre-requisites before proceeding, try and simply run the queues.py file, and expect to see an output as follows. This uses the default configurations for the program (4 VMs, 100% confidence interval, and timeout of 24 hours, with difficulty of 20)
 
 Uploading to machine i-08d26d3ba32604518
 
