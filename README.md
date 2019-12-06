@@ -39,9 +39,14 @@ Terminating SQS resource...
 If the above example worked for you, you can now begin to play with the parameters of the program. They are as follows:
 
 --difficulty=N => Sets the difficulty of the program to run at
+
 --machines=N => Sets the number of machines your computation will run on
+
 --timeout=S => In seconds, specifies a hard deadline by which the computation must finish, or resources will be terminated
+
 --max-cost=C => In dollars, specifies the maximum cost your computation should be allowed to spend. Prices updated directly from Amazon.
+
 --max-hourly=C => In dollars, specifies the maximum cost your computation should be allowed to spend every hour. Prices updated directly from Amazon.
+
 --confidence=M => A percentage value. Use in conjuction with the timeout flag. Specifies how certain you want to be about finding a result.
 
