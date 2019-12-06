@@ -7,7 +7,7 @@ The main purpose of the application is to demonstrate horizontal scaling on AWS.
 
 # Pre-requisites
 
-- The default region for this codebase is US-EAST-2 (OHIO). Change as appropriate in any resource function calls.
+- Input your region at the top of the file you wish to use. 
 - Firstly, you will need to configure your Amazon Web Services CLI. See [here](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) to set up.
 - Through your AWS account, generate a Key Pair for EC2 instances. This key, which you will download, should be kept safe and will be useful when setting up VMs/ using AWS services. Refer to the docs [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html) for more information on EC2 key pairs. This key pair will be used under the KeyPair field in the run_instances function of the queues.py file.
 - You will also need to create a security group. See the Amazon docs [here](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-security-groups.html) on how to do so. This security group will be used under the SecurityGroupIDs field in the run_instances function.
