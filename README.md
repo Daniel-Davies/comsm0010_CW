@@ -19,12 +19,19 @@ The main purpose of the application is to demonstrate horizontal scaling on AWS.
 To check that you have cleared the pre-requisites before proceeding, try and simply run the queues.py file, and expect to see an output as follows:
 
 Uploading to machine i-08d26d3ba32604518
+
 Uploading to machine i-0f80ae5c08ce60956
+
 Uploading to machine i-02304ff3d62c98d75
+
 Uploading to machine i-0c354d4b48edb77aa
+
 Done uploading
+
 2150236108 found as golden nonce for difficulty 20 with overall computational time of 81.08
+
 Terminating EC2 instances...
+
 Terminating SQS resource...
 
 ### Inputting parameters
